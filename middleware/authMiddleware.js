@@ -1,7 +1,7 @@
 // middleware/authMiddleware.js — JWT protect middleware
 // Ye har protected route se pehle chalta hai aur verify karta hai ki user logged-in hai ya nahi.
 const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const User = require("../models/user");
 
 const protect = async (req, res, next) => {
   let token;

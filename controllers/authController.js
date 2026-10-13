@@ -1,6 +1,6 @@
 // controllers/authController.js — Register, Login, GetMe logic
 const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const User = require("../models/user");
 
 // JWT token banane ka helper (expiry 30 din)
 const generateToken = (userId) => {
